@@ -19,8 +19,5 @@ response = requests.get(base_url, params=params).json()
 response.keys()
 
 @app.route('/')
-def hello_world():
+def startTest():
     return response#.json()
-
-
-
